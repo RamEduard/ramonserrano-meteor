@@ -4,6 +4,8 @@ $(document).ready(function() {
         $('.main-nav').slideToggle();
         return false    
     });
+    // Material design initialize
+    $.material.init();
 });
 
 $(window).load(function(){        		
@@ -23,12 +25,12 @@ $(window).load(function(){
 	});
 
 	// Portfolio Conf
-	var $container = $('.portfolioContainer'),
+	var $portfolioContainer = $('.portfolioContainer'),
         $body = $('body'),
         colW = 375,
         columns = null;
 
-  	$container.isotope({
+  	$portfolioContainer.isotope({
 		// disable window resizing
 		resizable: true,
 		masonry: {
@@ -43,7 +45,7 @@ $(window).load(function(){
 	        // set new column count
 	        columns = currentColumns;
 	        // apply width to container manually, then trigger relayout
-	        $container.width( columns * colW ).isotope('reLayout');
+	        $portfolioContainer.width( columns * colW ).isotope('reLayout');
         }
   	}).smartresize(); // trigger resize to set container width
 
@@ -53,7 +55,7 @@ $(window).load(function(){
         $(this).addClass('current');
  
         var selector = $(this).attr('data-filter');
-        $container.isotope({
+        $portfolioContainer.isotope({
 			
             filter: selector,
         });
