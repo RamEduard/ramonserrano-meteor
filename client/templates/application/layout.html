@@ -1,0 +1,20 @@
+<template name="layout">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    
+    <style>
+    /* Spin Loader */
+	#iron-router-progress {
+	    background-color : #fff;
+	    box-shadow       : 0 0 5px rgba(255,255,255, .5);
+	}
+	#iron-router-progress.spinner:before {
+		border-color: #fff;
+	}
+    </style>
+
+    <body>
+        {{> yield }}
+        {{> footer }}
+    </body>
+</template>

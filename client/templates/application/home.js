@@ -1,15 +1,19 @@
-$(document).ready(function() {
+var scripts = '<script src="/js/plugins/jquery-scrolltofixed.js"></script>\
+    <script src="/js/plugins/jquery.easing.1.3.js"></script>\
+    <script src="/js/plugins/jquery.isotope.js"></script>\
+    <script src="/js/plugins/wow.js"></script>\
+    <script src="/js/plugins/classie.js"></script>';
+
+Template.home.rendered = function() {
+	$('body').append(scripts);
+
 	$('#nav-scroll').scrollToFixed();
-    $('.res-nav_click').click(function() {
+	$('.res-nav_click').click(function() {
         $('.main-nav').slideToggle();
         return false    
     });
-    // Material design initialize
-    $.material.init();
-});
 
-$(window).load(function(){        		
-	$('.main-nav li a').bind('click',function(event){
+    $('.main-nav li a').bind('click',function(event){
 		var $anchor = $(this);
 		
 		$('html, body').stop().animate({
@@ -61,16 +65,7 @@ $(window).load(function(){
         });
         return false;
     });
-});
 
-// WOW Initialize
-wow = new WOW({
-    animateClass: 'animated',
-    offset:       100
-});
-wow.init();
-// document.getElementById('').onclick = function() {
-// 	var section = document.createElement('section');
-// 	section.className = 'wow fadeInDown';
-// 	this.parentNode.insertBefore(section, this);
-// };
+    // Material design initialize
+    $.material.init();
+};

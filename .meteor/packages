@@ -9,3 +9,5 @@ fezvrasta:bootstrap-material-design
 accounts-base
 accounts-password
 twbs:bootstrap
+iron:router
+multiply:iron-router-progress
