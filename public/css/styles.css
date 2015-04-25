@@ -177,19 +177,19 @@ color: #fff;
 	margin:0 1px;
 }
 .main-nav li a{
-	display:inline-block;
 	color:#222222;
-	text-transform:uppercase;
+	display:inline-block;
 	font-family: 'Montserrat', sans-serif;
+	line-height: 20px;
+	padding: 15px 25px;
 	text-decoration: none;
-	line-height:20px;
-	margin:17px 32px;
+	text-transform: uppercase;
 	transition:all 0.3s ease-in-out;
 	-moz-transition:all 0.3s ease-in-out;
 	-webkit-transition:all 0.3s ease-in-out;
 }
 
-.main-nav li a:hover{ 
+.main-nav li a:hover { 
 	text-decoration:none;
 	color: #7cc576;
 }
