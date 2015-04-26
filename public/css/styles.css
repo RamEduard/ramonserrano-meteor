@@ -770,6 +770,12 @@ img {
     max-width: 1140px;
 }
 
+.modal-header .close {
+    margin-top: -2px;
+    z-index: 1;
+    position: relative;
+}
+
 /* Animation Timers
 ---------------------------------*/
 .delay-02s { 
