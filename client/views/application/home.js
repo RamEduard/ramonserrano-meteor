@@ -1,37 +1,40 @@
-var scripts = '<script src="/js/plugins/jquery-scrolltofixed.js"></script>\
-    <script src="/js/plugins/jquery.easing.1.3.js"></script>\
-    <script src="/js/plugins/jquery.isotope.js"></script>\
-    <script src="/js/plugins/wow.js"></script>\
-    <script src="/js/plugins/classie.js"></script>';
-
 Template.home.rendered = function() {
-    $('body').append(scripts);
-
     $('#nav-scroll').scrollToFixed();
     $('.res-nav_click').click(function() {
         $('.main-nav').slideToggle();
         return false;
     });
-
-    $('.main-nav li a').bind('click', function(event) {
+    
+    $('.main-nav li a, \
+       .header a.link, \
+       a.navbar-brand,\
+       #responsive-nav .navbar-nav li a.navigation').bind('click', function(event) {
+        event.preventDefault();
+        
         var $anchor = $(this);
 
         $('html, body').stop().animate({
-            scrollTop: $($anchor.attr('href')).offset().top - 102
+            scrollTop: $($anchor.attr('href')).offset().top - 50
         }, 1500, 'easeInOutExpo');
+        
+        $(this).addClass('active');
         /*
          if you don't want to use the easing effects:
          $('html, body').stop().animate({
          scrollTop: $($anchor.attr('href')).offset().top
          }, 1000);
          */
-        event.preventDefault();
+    });
+    
+    $('#responsive-nav .navbar-nav li a.navigation').bind('click', function(event) {
+        event.preventDefault(); 
+        $('button[data-target=#responsive-nav]').click();
     });
 
     // Portfolio Conf
     var $portfolioContainer = $('.portfolioContainer'),
             $body = $('body'),
-            colW = 375,
+            colW = ($portfolioContainer.width() / 5),
             columns = null;
 
     $portfolioContainer.isotope({
