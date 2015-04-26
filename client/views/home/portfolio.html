@@ -1,15 +1,15 @@
 <template name="portfolio">
-	<div class="container">
-        <h2>Portfolio</h2>
-        <h6>Fresh portfolio of designs that will keep you wanting more.</h6>
+    <div class="container">
+        <h2>Portafolio</h2>
+        <h6>Proyectos desarrollados y desplegados.</h6>
 
         <div class="portfolioFilter">
             <ul class="Portfolio-nav wow fadeIn delay-02s">
                 <li>
-                    <a href="#" data-filter="*" class="current">All</a>
+                    <a href="#" data-filter="*" class="current">Todos</a>
                 </li>
                 <li>
-                    <a href="#" data-filter=".branding">Branding</a>
+                    <a href="#" data-filter=".wordpress">WordPress</a>
                 </li>
                 <li>
                     <a href="#" data-filter=".webdesign">Web design</a>
@@ -25,14 +25,19 @@
 
     </div>
     <div class="portfolioContainer wow fadeInUp delay-04s">
+        <div class="Portfolio-box wordpress">
+            <a href="#Gymtopz" data-toggle="modal" data-target="#Gymtopz">
+                <img src="/img/portafolio/gymtopz/home.png" alt="Gymtopz">
+            </a>
+            <h3>Gymtopz</h3>
+            <p>WordPress</p>
+        </div>
         <div class="Portfolio-box printdesign">
             <a href="#modal-1" data-toggle="modal" data-target="#modal-1">
                 <img src="/img/Portfolio-pic1.jpg" alt="">
             </a>
-
-            <h3>Foto Album</h3>
-
-            <p>Print Design</p>
+            <h3>Envases Mundial</h3>
+            <p>Wordpress</p>
         </div>
         <div class="Portfolio-box webdesign">
             <a href="#modal-2" data-toggle="modal" data-target="#modal-2">
@@ -81,25 +86,30 @@
         </div>
     </div>
     <div class="portfolioModalsContainer">
-        <div class="modal" id="modal-1">
+        <div class="modal" id="Gymtopz">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
                         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                        <h4 class="modal-title">Gymtopz</h4>
                     </div>
                     <div class="modal-body">
-                        <img src="/img/Portfolio-pic3.jpg" alt="">
+                        <img src="/img/portafolio/gymtopz/home.png" alt="">
 
                         <div class="description-box">
-                            <h4>Coffee Cup</h4>
-
-                            <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum
-                                auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+                            <p>
+                                Gymtopz es una tienda de Ropa y accesorios deportivos como camisas, shorts, gorras, pantalones, entre otros, que esta ubicada en Miami, Florida, EEUU. Esta desarrollada con Wordpress CMS he implementado Paypal como método de pago. 
+                                Entre otras características tiene integración con las imágenes de Instagram, contador de Likes y seguidores de Facebook, Instragram y Twitter, además de personalización de envío de correo electrónico a través en el formulario de contacto.
+                            </p>
+                            <p>
+                                <span class="fa fa-tags"></span>
+                                Wordpress, Responsive, Paypal, Instagram, Counters, MailHTML
+                            </p>
                         </div>
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                        <a class="btn btn-primary" href="https://www.google.com" target="_blank">View details</a>
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                        <button class="btn btn-primary remote-link" data-url="http://gymtopz.com">Ver sitio web</button>
                     </div>
                 </div>
             </div>
