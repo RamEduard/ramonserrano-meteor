@@ -195,6 +195,7 @@ p{
     -webkit-transition:all 0.3s ease-in-out;
 }
 
+.main-nav li a.active,
 .main-nav li a:active,
 .main-nav li a:focus,
 .main-nav li a:hover {

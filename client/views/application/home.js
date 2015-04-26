@@ -17,6 +17,7 @@ Template.home.rendered = function() {
             scrollTop: $($anchor.attr('href')).offset().top - 50
         }, 1500, 'easeInOutExpo');
         
+        $('.main-nav li a').not(this).removeClass('active');
         $(this).addClass('active');
         /*
          if you don't want to use the easing effects:
