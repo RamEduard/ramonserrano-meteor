@@ -1,8 +1,6 @@
 <template name="home">
-    <link rel="stylesheet" type="text/css" href="/css/styles.css">
-
     <div style="overflow:hidden;">
-        <header class="header" id="header"><!--header-start-->
+        <header class="header" id="inicio"><!--header-start-->
             <div class="container">
                 <figure class="logo animated fadeInDown delay-07s">
                     <a href="#"><img src="/img/logo.png" alt=""></a>
@@ -11,33 +9,17 @@
                 <h2 class="animated fadeInDown delay-07s">Soy Ramón Serrano</h2>
                 <ul class="we-create animated fadeInUp delay-1s">
                     <li>Analista y Desarrollador de software de calidad e innovación.</li>
-                    <li>Si quieres saber como saber sobre sitios web, aplicaciones, sistemas de información, y más software de calidad que puedo ofrecerte sigue viendo.</li>
+                    <li>Si quieres saber sobre sitios web, aplicaciones, sistemas de información, y más software de calidad que puedes obtener...</li>
                 </ul>
-                <a class="link animated fadeInUp delay-1s" href="#">Get Started</a>
+                <a class="link animated fadeInUp delay-1s" href="#servicios">Seguir viendo</a>
             </div>
         </header>
         <!--header-end-->
     </div>
-
-
-    <nav class="main-nav-outer" id="nav-scroll"><!--main-nav-start-->
-        <div class="container">
-            <ul class="main-nav">
-                <li><a href="#header">Home</a></li>
-                <li><a href="#service">Services</a></li>
-                <li><a href="#Portfolio">Portfolio</a></li>
-                <li class="small-logo"><a href="#header"><img src="/img/small-logo.png" alt=""></a></li>
-                <li><a href="#client">Clients</a></li>
-                <li><a href="#team">Team</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-            <a class="res-nav_click" href="#"><i class="fa fa-bars"></i></a>
-        </div>
-    </nav>
-    <!--main-nav-end-->
-
-
-    <section class="main-section" id="service"><!--main-section-start-->
+    
+    {{> homeMenu }}
+    
+    <section class="main-section" id="servicios"><!--main-section-start-->
         {{> services }}
     </section>
     <!--main-section-end-->
@@ -47,15 +29,16 @@
     </section>
     <!--main-section alabaster-end-->
 
-    <section class="main-section paddind" id="Portfolio"><!--main-section-start-->
+    <section class="main-section paddind" id="portafolio"><!--main-section-start-->
         {{> portfolio }}
     </section>
     <!--main-section-end-->
 
-
-    <section class="main-section client-part" id="client"><!--main-section client-part-start-->
+    <!--
+    <section class="main-section client-part" id="clientes">
         {{> client }}
     </section>
+    -->
     <!--main-section client-part-end-->
     <div class="c-logo-part"><!--c-logo-part-start-->
         <div class="container">
@@ -69,7 +52,7 @@
         </div>
     </div>
     <!--c-logo-part-end-->
-    <section class="main-section team" id="team"><!--main-section team-start-->
+    <section class="main-section team" id="equipo"><!--main-section team-start-->
         {{> team }}
     </section>
     <!--main-section team-end-->
@@ -81,7 +64,7 @@
         </div>
     </section>
     <!--business-talking-end-->
-    <section class="main-section contact" id="contact">
+    <section class="main-section contact" id="contacto">
         {{> contact }}
     </section>
 </template>
