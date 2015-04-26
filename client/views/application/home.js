@@ -70,4 +70,11 @@ Template.home.rendered = function() {
 
     // Material design initialize
     $.material.init();
+    
+    // WOW Initialize
+    wow = new WOW({
+        animateClass: 'animated',
+        offset:       100
+    });
+    wow.init();
 };
