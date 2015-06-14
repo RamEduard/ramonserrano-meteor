@@ -11,3 +11,9 @@ accounts-password
 twbs:bootstrap
 iron:router
 multiply:iron-router-progress
+aldeed:collection2
+dburles:collection-helpers
+matb33:collection-hooks
+accounts-ui
+useraccounts:bootstrap
+natestrauser:connection-banner
