@@ -16,7 +16,6 @@ matb33:collection-hooks
 accounts-ui
 useraccounts:bootstrap
 natestrauser:connection-banner
-yogiben:admin
 natestrauser:font-awesome
 standard-minifiers
 meteor-base
@@ -32,3 +31,5 @@ random
 ejson
 spacebars
 check
+yogiben:admin
+useraccounts:iron-routing
