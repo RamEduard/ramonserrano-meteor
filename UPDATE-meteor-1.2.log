@@ -1,0 +1,156 @@
+Changes to your project's package version selections from updating the release:
+                                              
+accounts-base                  upgraded from 1.2.0 to 1.2.2
+accounts-password              upgraded from 1.1.1 to 1.1.4
+accounts-ui                    upgraded from 1.1.5 to 1.1.6
+accounts-ui-unstyled           upgraded from 1.1.7 to 1.1.8
+aldeed:autoform*               upgraded from 4.2.2 to 5.5.1
+aldeed:collection2             upgraded from 2.3.3 to 2.5.0
+aldeed:tabular                 upgraded from 1.2.0 to 1.4.0
+autoupdate                     upgraded from 1.2.1 to 1.2.4
+babel-compiler                 added, version 5.8.24_1
+babel-runtime                  added, version 0.1.4
+base64                         upgraded from 1.0.3 to 1.0.4
+binary-heap                    upgraded from 1.0.3 to 1.0.4
+blaze                          upgraded from 2.1.2 to 2.1.3
+blaze-tools                    upgraded from 1.0.3 to 1.0.4
+boilerplate-generator          upgraded from 1.0.3 to 1.0.4
+caching-compiler               added, version 1.0.0
+caching-html-compiler          added, version 1.0.2
+callback-hook                  upgraded from 1.0.3 to 1.0.4
+check                          upgraded from 1.0.5 to 1.1.0
+coffeescript                   upgraded from 1.0.6 to 1.0.11
+ddp                            upgraded from 1.1.0 to 1.2.2
+ddp-client                     added, version 1.2.1
+ddp-common                     added, version 1.2.2
+ddp-rate-limiter               added, version 1.0.0
+ddp-server                     added, version 1.2.2
+deps                           upgraded from 1.0.7 to 1.0.9
+diff-sequence                  added, version 1.0.1
+ecmascript                     added, version 0.1.6
+ecmascript-runtime             added, version 0.2.6
+ejson                          upgraded from 1.0.6 to 1.0.7
+email                          upgraded from 1.0.6 to 1.0.8
+fastclick                      upgraded from 1.0.3 to 1.0.7
+geojson-utils                  upgraded from 1.0.3 to 1.0.4
+html-tools                     upgraded from 1.0.4 to 1.0.5
+htmljs                         upgraded from 1.0.4 to 1.0.5
+http                           upgraded from 1.1.0 to 1.1.1
+id-map                         upgraded from 1.0.3 to 1.0.4
+iron:controller                upgraded from 1.0.7 to 1.0.8
+iron:core                      upgraded from 1.0.7 to 1.0.8
+iron:dynamic-template          upgraded from 1.0.7 to 1.0.8
+iron:layout                    upgraded from 1.0.7 to 1.0.8
+iron:location                  upgraded from 1.0.7 to 1.0.9
+iron:middleware-stack          upgraded from 1.0.7 to 1.0.9
+iron:router                    upgraded from 1.0.7 to 1.0.9
+iron:url                       upgraded from 1.0.7 to 1.0.9
+jquery                         upgraded from 1.11.3_2 to 1.11.4
+json                           removed from your project
+launch-screen                  upgraded from 1.0.2 to 1.0.4
+less*                          upgraded from 1.0.14 to 2.5.1
+livedata                       upgraded from 1.0.13 to 1.0.15
+localstorage                   upgraded from 1.0.3 to 1.0.5
+logging                        upgraded from 1.0.7 to 1.0.8
+meteor                         upgraded from 1.1.6 to 1.1.10
+meteor-platform                upgraded from 1.2.2 to 1.2.3
+mfactory:admin-lte             added, version 0.0.2
+minifiers                      upgraded from 1.1.5 to 1.1.7
+minimongo                      upgraded from 1.0.8 to 1.0.10
+mobile-status-bar              upgraded from 1.0.3 to 1.0.6
+momentjs:moment                upgraded from 2.10.3 to 2.10.6
+mongo                          upgraded from 1.1.0 to 1.1.3
+mongo-id                       added, version 1.0.1
+mongo-livedata                 upgraded from 1.0.8 to 1.0.9
+multiply:iron-router-progress  upgraded from 1.0.1 to 1.0.2
+npm-mongo                      added, version 1.4.39_1
+observe-sequence               upgraded from 1.0.6 to 1.0.7
+ordered-dict                   upgraded from 1.0.3 to 1.0.4
+promise                        added, version 0.5.1
+raix:handlebar-helpers         upgraded from 0.2.4 to 0.2.5
+random                         upgraded from 1.0.3 to 1.0.5
+rate-limit                     added, version 1.0.0
+reactive-dict                  upgraded from 1.1.0 to 1.1.3
+reactive-var                   upgraded from 1.0.5 to 1.0.6
+reload                         upgraded from 1.1.3 to 1.1.4
+retry                          upgraded from 1.0.3 to 1.0.4
+reywood:publish-composite      upgraded from 1.3.6 to 1.4.2
+routepolicy                    upgraded from 1.0.5 to 1.0.6
+service-configuration          upgraded from 1.0.4 to 1.0.5
+session                        upgraded from 1.1.0 to 1.1.1
+sha                            upgraded from 1.0.3 to 1.0.4
+spacebars                      upgraded from 1.0.6 to 1.0.7
+spacebars-compiler             upgraded from 1.0.6 to 1.0.7
+srp                            upgraded from 1.0.3 to 1.0.4
+templating                     upgraded from 1.1.1 to 1.1.5
+templating-tools               added, version 1.0.0
+tracker                        upgraded from 1.0.7 to 1.0.9
+twbs:bootstrap                 upgraded from 3.3.4 to 3.3.5
+ui                             upgraded from 1.0.6 to 1.0.8
+underscore                     upgraded from 1.0.3 to 1.0.4
+url                            upgraded from 1.0.4 to 1.0.5
+useraccounts:bootstrap         upgraded from 1.11.1 to 1.12.0
+useraccounts:core              upgraded from 1.11.1 to 1.12.0
+webapp                         upgraded from 1.2.0 to 1.2.3
+webapp-hashing                 upgraded from 1.0.3 to 1.0.5
+yogiben:admin                  upgraded from 1.1.2 to 1.2.3
+zimme:active-route             added, version 2.3.2
+
+                                              
+* These packages have been updated to new versions that are not backwards
+compatible.
+ramonserrano-meteor: updated to Meteor 1.2.1. 
+                                              
+-- Notice --                                  
+                                              
+1.2: Meteor 1.2 includes many changes and improvements to the build system, some of which might require small changes to apps and
+     packages. Please read the guide about breaking changes here:
+     https://github.com/meteor/meteor/wiki/Breaking-changes-in-Meteor-1.2
+                                              
+Changes to your project's package version selections from updating package versions:
+                                              
+alanning:roles                       upgraded from 1.2.13 to 1.2.14
+aldeed:collection2                   upgraded from 2.5.0 to 2.9.0
+aldeed:collection2-core              added, version 1.1.0
+aldeed:schema-deny                   added, version 1.0.1
+aldeed:schema-index                  added, version 1.0.1
+aldeed:simple-schema                 upgraded from 1.3.3 to 1.5.3
+aldeed:tabular                       upgraded from 1.4.0 to 1.4.2
+aldeed:template-extension*           upgraded from 3.4.3 to 4.0.0
+blaze-html-templates                 added, version 1.0.1
+dburles:collection-helpers           upgraded from 1.0.3 to 1.0.4
+fezvrasta:bootstrap-material-design  upgraded from 0.3.0 to 0.5.8
+hot-code-push                        added, version 1.0.0
+iron:controller                      upgraded from 1.0.8 to 1.0.12
+iron:core                            upgraded from 1.0.8 to 1.0.11
+iron:dynamic-template                upgraded from 1.0.8 to 1.0.12
+iron:layout                          upgraded from 1.0.8 to 1.0.12
+iron:location                        upgraded from 1.0.9 to 1.0.11
+iron:middleware-stack                upgraded from 1.0.9 to 1.0.11
+iron:router                          upgraded from 1.0.9 to 1.0.12
+iron:url                             upgraded from 1.0.9 to 1.0.11
+matb33:collection-hooks              upgraded from 0.7.13 to 0.8.1
+mdg:validation-error                 added, version 0.2.0
+meteor-base                          added, version 1.0.1
+meteor-platform                      removed from your project
+mobile-experience                    added, version 1.0.1
+natestrauser:font-awesome            upgraded from 4.3.0 to 4.4.0
+raix:eventemitter                    added, version 0.1.3
+softwarerero:accounts-t9n            upgraded from 1.0.9 to 1.1.7
+standard-minifiers                   added, version 1.0.2
+twbs:bootstrap                       upgraded from 3.3.5 to 3.3.6
+useraccounts:bootstrap               upgraded from 1.12.0 to 1.13.1
+useraccounts:core                    upgraded from 1.12.0 to 1.13.1
+yogiben:admin                        upgraded from 1.2.3 to 1.2.6
+
+                                              
+* These packages have been updated to new versions that are not backwards
+compatible.
+                                              
+Newer versions of the following indirect dependencies are available:
+ * aldeed:autoform 5.5.1 (5.8.1 is available) 
+ * aldeed:tabular 1.4.2 (1.6.0 is available)  
+ * mdg:validation-error 0.2.0 (0.5.0 is available)
+ * meteorhacks:meteorx 1.0.2 (1.4.1 is available)
+ * momentjs:moment 2.10.6 (2.11.2 is available)
+ * softwarerero:accounts-t9n 1.1.7 (1.2.2 is available)
